@@ -12,6 +12,15 @@ Let the 3D vectors ``$ p_d $`` and ``$ p_s $`` represent the object's position a
 
 The object's warp-in point is the vector ``$ p_s + \vec{v} - r\hat{v} $``.
 
+
+## Suns
+
+With the introduction of the new solar graphics, the warp in point was changes to make them more obviously pretty. 
+
+100,000 km from the sun's surface along the horizontal plane, then 1/5 of the sun's radius above the equator along the vertical plane
+
+with the direction of the offset being calculated semi-randomly as before
+
 ## Large Objects
 
 A large object is any celestial body whose radius exceeds 90 kilometres (180 kilometres in diameter), except planets.
